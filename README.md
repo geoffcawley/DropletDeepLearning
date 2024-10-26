@@ -1,3 +1,26 @@
+CPU inferencing setup:
+1. Install Anaconda or Miniconda
+  https://www.anaconda.com/download/success
+2. Open Anaconda prompt and run the following commands:
+  conda create -n tf-cpu tensorflow python=3.9
+  conda activate tf-cpu
+  pip install opencv-python
+  pip install scikit-learn
+  pip install matplotlib
+3. Run predictvideo.py
+
+GPU inferencing setup:
+1. Install Anaconda or Miniconda
+  https://www.anaconda.com/download/success
+2. Open Anaconda prompt and run the following commands:
+  conda create -n tf-gpu tensorflow-gpu python=3.9
+  conda activate tf-gpu
+  pip install opencv-python
+  pip install scikit-learn
+  pip install matplotlib
+3. Run predictvideo.py
+
+
 Follow instructions for GPU TensorFlow at:
 https://docs.anaconda.com/working-with-conda/applications/tensorflow/
 

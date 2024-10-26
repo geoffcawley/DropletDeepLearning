@@ -4,10 +4,9 @@ import argparse
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.models import load_model
-from pyimagesearch import config
+import config
 import os
 import numpy as np
-import imutils
 from pathlib import Path
 import glob
 from trainingutils import getBoundingSquare, getcb2cImg, getModelInput

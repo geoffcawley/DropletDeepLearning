@@ -1,5 +1,5 @@
 
-from pyimagesearch import config
+import config
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from tensorflow.keras.applications import VGG16
